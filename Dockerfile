@@ -21,4 +21,4 @@ COPY config.json /api/
 
 EXPOSE 3000
 
-ENTRYPOINT ["node"]
+CMD ["node", "/api/vendors/server/app.js"]
